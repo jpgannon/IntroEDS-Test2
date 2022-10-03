@@ -1,0 +1,66 @@
+---
+title: "Test 2"
+output: html_document
+date: "2022-10-03"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. Load the Tidyverse and Patchwork libraries (5)
+```{r}
+
+```
+
+2. Read in the mauna loa co2 file and the global temperature file. (5)
+Be sure to check that they read in properly!
+```{r}
+
+```
+
+3. Make a line plot of co2 concentrations over time from the Mauna Loa data. Be sure your plot has axis labels and looks good! (10)
+```{r}
+
+```
+
+4. Make a plot of global temperature through time. Be sure this also conforms to good plot standards. (10)
+```{r}
+
+```
+
+5. Filter the temperature records to the years matching those in the co2 dataset and make a plot of that filtered data. Use patchwork to create a composite plot with the co2 plot on the top and the temperature plot on the bottom. 
+
+Remember, to do this, save each of your plots (ex: plot1 <- ggplot(...)) and then use mathematical symbols to tell patchwork how to combine them (+ for next to each other, / for on top) (15)
+```{r}
+
+```
+
+6. Describe the trend in co2 and the trend in temperature. Do they appear to be related? (5)
+
+7. Run the line of code below to create the plants dataset in your environment. 
+Output a table with the mean uptake for each Type of plant for each Treatment. (10)
+
+Info on these data: https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/zCO2.html
+
+```{r}
+plants <- CO2
+
+```
+
+8. Create a new column in the plants dataset called efficiency. Make efficiency equal to the uptake divided by concentration multiplied by 100. (10)
+```{r}
+
+```
+
+9. Output a table of the mean uptake and mean efficiency for each Type of plant for each Treatment. (10)
+```{r}
+
+```
+
+10. Make a plot with concentration on the x axis and uptake on the y axis. Color the points by plant type and make the point shape depend on treatment. (10)
+```{r}
+
+```
+
+11. Using evidence from BOTH number 10 plot and the number 9 table, describe the difference in how the Quebec and Mississippi plants responded to increasing co2 concentrations. (10) 
